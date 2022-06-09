@@ -13,7 +13,6 @@ const PublicationCard = (props) => {
     <Fade bottom duration={2000} distance="40px">
       <div
         className="publication-card-div"
-        key={publication.id}
         onClick={() => openpublicationinNewTab(publication.url)}
         style={{ backgroundColor: theme.headerColor }}
       >

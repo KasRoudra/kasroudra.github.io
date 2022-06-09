@@ -25,7 +25,7 @@ const GithubRepoCard = (props) => {
               height="16"
               role="img"
               viewBox="0 0 12 16"
-              width="12"
+              width="16"
               fill={theme.text}
             >
               <path

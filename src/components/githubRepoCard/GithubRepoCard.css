@@ -5,6 +5,7 @@
   border-radius: 1%;
   padding: 2rem;
   cursor: pointer;
+  flex: 1 1 25%;
   transition: all 0.5s ease-in-out;
 }
 .repo-card-div:hover {
@@ -59,6 +60,7 @@
 .repo-name {
   white-space: nowrap;
   text-overflow: ellipsis;
+  text-align: left;
   color: rgb(36, 41, 46);
   font-family: "Google Sans Regular";
   margin-bottom: 0.75rem;
@@ -104,6 +106,9 @@
 }
 
 @media (max-width: 768px) {
+  .repo-card-div {
+    flex: 1 1 100%;
+  }
   .repo-name {
     font-size: 16px;
   }
@@ -118,5 +123,17 @@
 
   .repo-creation-date {
     font-size: 14px;
+  }
+}
+@media (max-width: 1200px) {
+  .repo-card-div {
+    flex: 1 1 40%;
+  }
+}
+
+@media (min-width: 768px) {
+  .repo-svg {
+    width: 20px;
+    height: 20px;
   }
 }
