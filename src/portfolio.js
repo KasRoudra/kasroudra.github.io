@@ -11,7 +11,7 @@
 */
 
 /*
-Some informations are kept unchanged according to component owners 
+Some informations are kept unchanged according to component owners
 Credits: masterPortfolio(https://github.com/ashutosh1919/masterPortfolio)
          developerFolio(https://github.com/saadpasta/developerFolio)
 */
@@ -38,9 +38,9 @@ const pageEnabled = {
 // Routing with or without '#'
 const routerValue =
   "HashRouter"; /* Supported values:
- 					1. HashRouter(for github hosted user Pages)
- 					2. BrowserRouter (for regular hosting)
- 					*/
+                     1. HashRouter(for github hosted user Pages)
+                     2. BrowserRouter (for regular hosting)
+                     */
 
 // Splash Screen
 
@@ -48,18 +48,18 @@ const splashScreen = {
   useLottie: true, // setting it false will show animation of src/components/loader
   animationFile:
     "starLoading" /* Supported Values
-    					             1. splashAnimation
-    					             2. email
-    					             3. build
-    					             4. landingPerson
-    					             5. codingPerson
-    					             6. geometricLoader
-    					             7. starLoading
-    					             8. ripple
-    					             9. nightDay
-    					             10. littleRobot
-    					             11. poolChartLoading
-    					             */,
+                                     1. splashAnimation
+                                     2. email
+                                     3. build
+                                     4. landingPerson
+                                     5. codingPerson
+                                     6. geometricLoader
+                                     7. starLoading
+                                     8. ripple
+                                     9. nightDay
+                                     10. littleRobot
+                                     11. poolChartLoading
+                                     */,
   duration: 3500, // Set animation duration(milliseconds) as per your animation
 };
 
@@ -105,12 +105,12 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
-  //  {
-  //    name: "LinkedIn",
-  //    link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  //    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-  //    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  //  },
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/KasRoudra/",
+    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
+  },
   //  {
   //    name: "YouTube",
   //    link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
@@ -123,12 +123,12 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  //  {
-  //    name: "Twitter",
-  //    link: "https://twitter.com/ashutosh_1919",
-  //    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-  //    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  //  },
+  {
+    name: "Twitter",
+    link: "https://twitter.com/Kas_Roudra",
+    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
+    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
+  },
   {
     name: "Facebook",
     link: "https://www.facebook.com/KasRoudra/",
@@ -151,12 +151,12 @@ const skills = {
     {
       title: "Terminal Based Tools",
       imageName:
-        "TerminalImg" /* Available imageNames: 
-      
-      FullStackImg, 
-      TerminalImg,  
-      DesignImg, 
-      AppDevelopImg, 
+        "TerminalImg" /* Available imageNames:
+
+      FullStackImg,
+      TerminalImg,
+      DesignImg,
+      AppDevelopImg,
       CloudInfraImg,
       DataScienceImg.
       */,
@@ -182,8 +182,15 @@ const skills = {
           },
         },
         {
-          skillName: "Java",
-          fontAwesomeClassname: "logos-java",
+          skillName: "Rust",
+          fontAwesomeClassname: "simple-icons:rust",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "Go",
+          fontAwesomeClassname: "logos-go",
           style: {
             backgroundColor: "transparent",
           },
@@ -269,12 +276,12 @@ const skills = {
     {
       title: "Android App Development",
       imageName:
-        "AppDevelopImg" /* Available imageNames: 
-      
-      FullStackImg, 
-      TerminalImg,  
-      DesignImg, 
-      AppDevelopImg, 
+        "AppDevelopImg" /* Available imageNames:
+
+      FullStackImg,
+      TerminalImg,
+      DesignImg,
+      AppDevelopImg,
       CloudInfraImg,
       DataScienceImg.
       */,
@@ -381,6 +388,10 @@ const techStack = {
       progressPercentage: "80%",
     },
     {
+      Stack: "Perl",
+      progressPercentage: "70%",
+    },
+    {
       Stack: "Ruby",
       progressPercentage: "70%",
     },
@@ -389,7 +400,15 @@ const techStack = {
       progressPercentage: "60%",
     },
     {
+      Stack: "Rust",
+      progressPercentage: "60%",
+    },
+    {
       Stack: "Java",
+      progressPercentage: "60%",
+    },
+    {
+      Stack: "Lua",
       progressPercentage: "60%",
     },
     {
@@ -546,13 +565,23 @@ const degrees = {
       subtitle: "Studying in science department",
       logo_path: "sjhsc.png",
       alt_name: "SJHSC",
-      duration: "2019 - Present",
+      duration: "2019 - 2021",
       descriptions: [
         "⚡ I have passed SSC in 2019 from Dhaka Division",
-        "⚡ Now I am studying in Saint Joseph Higher Secondary School And College to get HSC Certificate.",
-        "⚡ I wish to study in BUET or DMC next year!",
+        "⚡ I have completed HSC from Saint Joseph Higher Secondary School And College in 2021"
       ],
       website_link: "https://www.sjs.edu.bd/",
+    },
+    {
+      title: "Faridpur Engineering College",
+      subtitle: "Studying in civil engineering department",
+      logo_path: "fec.png",
+      alt_name: "FEC",
+      duration: "2022 - present",
+      descriptions: [
+        "⚡ Currently I am studing civil engineering in Faridpur Engineering College!"
+      ],
+      website_link: "http://www.fec.ac.bd/",
     },
   ],
 };
