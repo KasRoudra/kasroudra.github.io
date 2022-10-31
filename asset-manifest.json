@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1e6bd573.css",
-    "main.js": "/static/js/main.3ac2d497.js",
+    "main.js": "/static/js/main.74cda75b.js",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.79da213423ac0def2058.ttf",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/kas.png": "/static/media/kas.4e59c2a69513244ea960.png",
@@ -21,6 +21,7 @@
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.f77bcc98bb7468c8b15a.woff2",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/ibm_logo.png": "/static/media/ibm_logo.8204bba7daa4eedf644b.png",
+    "static/media/fec.png": "/static/media/fec.9dc58f9bb3c0c6bde965.png",
     "static/media/codeInLogo.png": "/static/media/codeInLogo.be1b6b9bacd5f2fb1c7e.png",
     "static/media/stanford_logo.png": "/static/media/stanford_logo.de5f29dece094f7bec60.png",
     "static/media/animated_logo.svg": "/static/media/animated_logo.abd0b20ec83cb1f60d42.svg",
@@ -62,10 +63,10 @@
     "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
     "main.1e6bd573.css.map": "/static/css/main.1e6bd573.css.map",
-    "main.3ac2d497.js.map": "/static/js/main.3ac2d497.js.map"
+    "main.74cda75b.js.map": "/static/js/main.74cda75b.js.map"
   },
   "entrypoints": [
     "static/css/main.1e6bd573.css",
-    "static/js/main.3ac2d497.js"
+    "static/js/main.74cda75b.js"
   ]
 }
