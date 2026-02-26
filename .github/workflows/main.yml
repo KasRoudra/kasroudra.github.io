@@ -24,7 +24,9 @@ jobs:
         run: npm ci
 
       - name: Build the React website
-        run: npm run build
+        run: | 
+          npm run build
+          cp CNAME ./build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

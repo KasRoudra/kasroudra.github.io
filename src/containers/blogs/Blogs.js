@@ -11,8 +11,8 @@ const Blogs = (props) => {
       if (!child?.children?.length) {
         blogRef.current.removeChild(child);
       }
-    })
-  },[])
+    });
+  }, []);
   const theme = props.theme;
   const blogRef = useRef(null);
   var mediumSuccess;
@@ -39,12 +39,12 @@ const Blogs = (props) => {
       : NaN;
   }
   //  console.log(JSON.stringify(MediumBlogs.items))
-  
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="blogs">
         <div className="blog-header">
-          <h1 className="blog-header-text" style={{ color: theme.text }} >
+          <h1 className="blog-header-text" style={{ color: theme.text }}>
             {blogSection.title}
           </h1>
           <p className="blog-subTitle" style={{ color: theme.secondaryText }}>
@@ -86,6 +86,6 @@ const Blogs = (props) => {
       </div>
     </Fade>
   );
-}
+};
 
 export default Blogs;

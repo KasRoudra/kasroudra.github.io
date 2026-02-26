@@ -568,7 +568,7 @@ const degrees = {
       duration: "2019 - 2021",
       descriptions: [
         "⚡ I have passed SSC in 2019 from Dhaka Division",
-        "⚡ I have completed HSC from Saint Joseph Higher Secondary School And College in 2021"
+        "⚡ I have completed HSC from Saint Joseph Higher Secondary School And College in 2021",
       ],
       website_link: "https://www.sjs.edu.bd/",
     },
@@ -579,7 +579,7 @@ const degrees = {
       alt_name: "FEC",
       duration: "2022 - present",
       descriptions: [
-        "⚡ Currently I am studing civil engineering in Faridpur Engineering College!"
+        "⚡ Currently I am studing civil engineering in Faridpur Engineering College!",
       ],
       website_link: "http://www.fec.ac.bd/",
     },

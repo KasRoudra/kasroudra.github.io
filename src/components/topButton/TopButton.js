@@ -5,7 +5,7 @@ const TopButton = (props) => {
   const { theme } = props;
   const buttonRef = useRef();
   const arrowRef = useRef();
-  
+
   function GoUpEvent() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
@@ -30,7 +30,7 @@ const TopButton = (props) => {
   const onMouseEnter = (color, bgColor) => {
     const topButton = buttonRef.current;
     const arrow = arrowRef.current;
-    
+
     /* For the button */
     topButton.style.color = color;
     topButton.style.backgroundColor = bgColor;
